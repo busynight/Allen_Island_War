@@ -1,0 +1,56 @@
+﻿Build started 3/12/2013 8:11:03 PM.
+     1>Project "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\DirectXTK_Windows8.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Inc" /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\\" /I"Generated Files\\" /IBin\Windows8\Win32\Debug\ /ZI /ZW /ZW:nostdlib /nologo /W4 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Bin\Windows8\Win32\Debug\DirectXTK.pch" /Fo"Bin\Windows8\Win32\Debug\\" /Fd"Bin\Windows8\Win32\Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt Src\pch.cpp
+         pch.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Inc" /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\\" /I"Generated Files\\" /IBin\Windows8\Win32\Debug\ /ZI /ZW /ZW:nostdlib /nologo /W4 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Bin\Windows8\Win32\Debug\DirectXTK.pch" /Fo"Bin\Windows8\Win32\Debug\\" /Fd"Bin\Windows8\Win32\Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt Src\AlphaTestEffect.cpp Src\BasicEffect.cpp Src\CommonStates.cpp Src\DDSTextureLoader.cpp Src\DualTextureEffect.cpp Src\EffectCommon.cpp Src\EffectFactory.cpp Src\BinaryReader.cpp Src\EnvironmentMapEffect.cpp Src\GeometricPrimitive.cpp Src\Model.cpp Src\ModelLoadCMO.cpp Src\ModelLoadSDKMESH.cpp Src\ScreenGrab.cpp Src\SkinnedEffect.cpp Src\SpriteBatch.cpp Src\PrimitiveBatch.cpp Src\SpriteFont.cpp Src\VertexTypes.cpp Src\WICTextureLoader.cpp
+         AlphaTestEffect.cpp
+         BasicEffect.cpp
+         CommonStates.cpp
+         DDSTextureLoader.cpp
+         DualTextureEffect.cpp
+         EffectCommon.cpp
+         EffectFactory.cpp
+         BinaryReader.cpp
+         EnvironmentMapEffect.cpp
+         GeometricPrimitive.cpp
+         Model.cpp
+         ModelLoadCMO.cpp
+         ModelLoadSDKMESH.cpp
+         ScreenGrab.cpp
+         SkinnedEffect.cpp
+         SpriteBatch.cpp
+         PrimitiveBatch.cpp
+         SpriteFont.cpp
+         VertexTypes.cpp
+         WICTextureLoader.cpp
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"Bin\Windows8\Win32\Debug\DirectXTK.lib" /NOLOGO /IGNORE:4264 Bin\Windows8\Win32\Debug\AlphaTestEffect.obj
+         Bin\Windows8\Win32\Debug\BasicEffect.obj
+         Bin\Windows8\Win32\Debug\CommonStates.obj
+         Bin\Windows8\Win32\Debug\DDSTextureLoader.obj
+         Bin\Windows8\Win32\Debug\DualTextureEffect.obj
+         Bin\Windows8\Win32\Debug\EffectCommon.obj
+         Bin\Windows8\Win32\Debug\EffectFactory.obj
+         Bin\Windows8\Win32\Debug\BinaryReader.obj
+         Bin\Windows8\Win32\Debug\EnvironmentMapEffect.obj
+         Bin\Windows8\Win32\Debug\GeometricPrimitive.obj
+         Bin\Windows8\Win32\Debug\Model.obj
+         Bin\Windows8\Win32\Debug\ModelLoadCMO.obj
+         Bin\Windows8\Win32\Debug\ModelLoadSDKMESH.obj
+         Bin\Windows8\Win32\Debug\pch.obj
+         Bin\Windows8\Win32\Debug\ScreenGrab.obj
+         Bin\Windows8\Win32\Debug\SkinnedEffect.obj
+         Bin\Windows8\Win32\Debug\SpriteBatch.obj
+         Bin\Windows8\Win32\Debug\PrimitiveBatch.obj
+         Bin\Windows8\Win32\Debug\SpriteFont.obj
+         Bin\Windows8\Win32\Debug\VertexTypes.obj
+         Bin\Windows8\Win32\Debug\WICTextureLoader.obj
+         DirectXTK_Windows8.vcxproj -> C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Bin\Windows8\Win32\Debug\DirectXTK.lib
+       _GenerateProjectPriFileCore:
+         C:\Program Files\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\\" -ConfigXml Bin\Windows8\Win32\Debug\priconfig.xml -OutputFile "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Bin\Windows8\Win32\Debug\DirectXTK.pri" -IndexName DirectXTK -Verbose -Overwrite  
+     1>Done Building Project "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\DirectXTK_Windows8.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.18

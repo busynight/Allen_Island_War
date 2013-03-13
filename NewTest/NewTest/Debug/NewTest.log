@@ -1,0 +1,34 @@
+﻿Build started 3/12/2013 8:11:18 PM.
+     1>Project "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\NewTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\Documents\Visual Studio 2012\Projects\NewTest\NewTest\DirectXTK\Inc" /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\NewTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\Documents\Visual Studio 2012\Projects\NewTest\NewTest\DirectXTK\Inc" /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\NewTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Bin\Windows8\Win32\Debug\DirectXTK.lib"
+       CompileXamlGeneratedFiles:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\Documents\Visual Studio 2012\Projects\NewTest\NewTest\DirectXTK\Inc" /I"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\NewTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\DirectXTK\Bin\Windows8\Win32\Debug\DirectXTK.lib"
+         Debug\XamlTypeInfo.g.obj
+            Creating library C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.lib and object C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.exp
+         NewTest.vcxproj -> C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\NewTest.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\\" -ConfigXml Debug\priconfig.xml -OutputFile "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\Debug\NewTest\resources.pri" -IndexName b3d0f63d-578f-43ea-93f5-197ebaf6d775 -Verbose -Overwrite  
+     1>Done Building Project "C:\Users\Carbini\documents\visual studio 2012\Projects\NewTest\NewTest\NewTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.75
