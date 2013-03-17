@@ -1,0 +1,17 @@
+﻿Build started 3/16/2013 3:32:11 PM.
+     1>Project "C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Seagull\Seagull.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Seagull\\" /IDebug\ /I"C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Seagull\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt Renderer.cpp
+         Renderer.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Debug\Seagull\Seagull.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Debug\Seagull\Seagull.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Debug\Seagull\Seagull.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\Seagull.obj
+         Debug\Renderer.obj
+         Debug\Direct3DBase.obj
+         Debug\pch.obj
+         "C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Seagull\DirectXTK\Bin\Windows8\Win32\Debug\DirectXTK.lib"
+         Seagull.vcxproj -> C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Debug\Seagull\Seagull.exe
+     1>Done Building Project "C:\Users\Carbini\documents\visual studio 2012\Projects\Seagull\Seagull\Seagull.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.87

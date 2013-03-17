@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>5e158701-d4f2-4f75-a53d-8698e5e27ebb</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{a9c0e4d1-8d8f-4c85-91c0-8259dcef9b6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SimplePixelShader.hlsl" />
+    <FxCompile Include="SimpleVertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Seagull.cpp" />
+    <ClCompile Include="Direct3DBase.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Seagull.h" />
+    <ClInclude Include="DirectXHelper.h" />
+    <ClInclude Include="Direct3DBase.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Renderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Seagull_TemporaryKey.pfx" />
+    <None Include="assets\italic.spritefont">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="assets\tiny.sdkmesh">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Logo.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\seafloor.dds">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\SmallLogo.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\SplashScreen.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\StoreLogo.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\Tiny_skin.dds">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\windowslogo.dds">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\gull.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
